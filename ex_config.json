@@ -1,0 +1,12 @@
+{
+  "servers":[
+    {
+      "name":"SMP",
+      "send_to":["CMP", "MIRROR"]
+    },
+    {
+      "name":"MIRROR",
+      "send_to":["CMP"]
+    }
+  ]
+}
