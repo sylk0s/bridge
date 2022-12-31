@@ -1,4 +1,4 @@
-use bridge_app::{Config, McdConf};
+use bridge::{Config, McdConf};
 use std::fs;
 use futures::StreamExt;
 
